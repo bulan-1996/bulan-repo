@@ -1,0 +1,34 @@
+.active{
+    border-bottom: solid green;
+    border-width:  1px 0;
+}
+
+.mainVisual{
+    position: relative;
+}
+
+.mainVisual img{
+    vertical-align: bottom;
+}
+
+.mainVisualText{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    width: 400px;
+    padding: 15px 25px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: white;
+}
+.mainVisualText h1{
+    font-size: 26px;
+    line-height: 1.231;
+    margin: 0;
+}
+
+.mainVisualText p{
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
